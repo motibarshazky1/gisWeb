@@ -1,0 +1,34 @@
+.photo-library {
+	display: flex;
+	margin-top: 100px;
+	background: linear-gradient(rgb(50, 248, 83), rgb(232, 235, 229));
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	flex-direction: column;
+	margin-bottom: 100px;
+}
+.title {
+	font-size: 36px;
+	color: white;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.photos {
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.photo {
+	height: 110px;
+	width: 110px;
+}
+.photo-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
+}
