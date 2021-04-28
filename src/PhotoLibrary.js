@@ -60,8 +60,8 @@ const SiteRate = () => {
 				<label>Photo Library</label>
 			</div>
 			<div className="photos">
-				{array.map((photo) => (
-					<div className="photo-wrapper">
+				{array.map((photo, i) => (
+					<div key={i} className="photo-wrapper">
 						<img className="photo" src={photo.photoSrc}></img>
 						<label>{photo.photoName}</label>
 					</div>
