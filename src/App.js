@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 import MainScreen from './MainScreen';
 import PhotoLibrary from './PhotoLibrary';

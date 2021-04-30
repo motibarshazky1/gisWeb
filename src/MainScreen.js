@@ -1,11 +1,8 @@
 import React from 'react';
 import './MainScreen.css';
-import { Link, animateScroll as scroll } from 'react-scroll';
-import { useHistory } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const MainScreen = () => {
-	let history = useHistory();
-
 	return (
 		<div className="main-screen">
 			<div className="title">

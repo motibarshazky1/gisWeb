@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './PhotoLibrary.css';
 import gilboa1 from '../src/assets/gilboa1.jpg';
 import gilboa2 from '../src/assets/gilboa2.jpg';
@@ -62,7 +62,7 @@ const SiteRate = () => {
 			<div className="photos">
 				{array.map((photo, i) => (
 					<div key={i} className="photo-wrapper">
-						<img className="photo" src={photo.photoSrc}></img>
+						<img className="photo" src={photo.photoSrc} alt=""></img>
 						<label>{photo.photoName}</label>
 					</div>
 				))}
