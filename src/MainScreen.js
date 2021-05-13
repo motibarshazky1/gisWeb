@@ -10,7 +10,7 @@ const MainScreen = () => {
 			</div>
 			<div className="main-buttons">
 				<button className="main-button">
-					<a className="a" href="https://qgis.vercel.app/">
+					<a className="a" href="https://gis-map.vercel.app/">
 						View Map
 					</a>
 				</button>
