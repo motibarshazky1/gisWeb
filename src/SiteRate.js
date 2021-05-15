@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
 import './SiteRate.css';
+import StarRatings from 'react-star-ratings';
 
 const SiteRate = () => {
 	const [name, setName] = useState('');
-	const [rate, setRate] = useState('');
+	const [starsRating, setStarsRating] = useState(0);
 	const [date, setDate] = useState('');
 	const [comment, setComment] = useState('');
 
 	const onChangeInput = (e, field) => {
 		if (field === 'name') {
 			setName(e.target.value);
-		} else if (field === 'rate') {
-			setRate(e.target.value);
 		} else if (field === 'date') {
 			setDate(e.target.value);
 		} else {
@@ -21,19 +20,21 @@ const SiteRate = () => {
 
 	const onClickCancel = () => {
 		setName('');
-		setRate('');
+		setStarsRating(0);
 		setDate('');
 		setComment('');
 	};
 
 	const onClickSubmit = () => {
-		alert(`Thanks for the report, ${name}`);
+		alert(`Thanks for the report, ${name}!`);
 		setName('');
-		setRate('');
+		setStarsRating(0);
 		setDate('');
 		setComment('');
 	};
-
+	const changeRating = (newRating) => {
+		setStarsRating(newRating);
+	};
 	return (
 		<div className="site-rate" id="site-rate">
 			<div className="title">
@@ -52,12 +53,22 @@ const SiteRate = () => {
 					value={name}
 					onChange={(e) => onChangeInput(e, 'name')}
 				/>
-				<input
+				{/* <input
 					placeholder="Rate - Choose Between 1 to 5"
 					value={rate}
 					className="input"
 					onChange={(e) => onChangeInput(e, 'rate')}
-				/>
+				/> */}
+				<div style={{ marginTop: '25px' }}>
+					<StarRatings
+						rating={starsRating}
+						starRatedColor="yellow"
+						changeRating={changeRating}
+						numberOfStars={5}
+						name="rating"
+						starHoverColor="orange"
+					/>
+				</div>
 				<input
 					placeholder="Date"
 					value={date}
