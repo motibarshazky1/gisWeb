@@ -8,12 +8,15 @@
 	align-self: center;
 	flex-direction: column;
 	margin-bottom: 100px;
+	font-family: 'Gayathri', sans-serif;
 }
 .title {
 	font-size: 36px;
 	color: white;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	font-family: 'Gayathri', sans-serif;
+	margin-bottom: 10px;
 }
 .photos {
 	flex-wrap: wrap;
@@ -25,6 +28,7 @@
 .photo {
 	height: 110px;
 	width: 110px;
+	font-family: 'Gayathri', sans-serif;
 }
 .photo-wrapper {
 	display: flex;

@@ -39,6 +39,12 @@ const SiteRate = () => {
 			<div className="title">
 				<label>Report Form</label>
 			</div>
+			<img
+				src="https://cdn3.iconfinder.com/data/icons/sympletts-free-sampler/128/star-512.png"
+				className="img"
+				alt=""
+			></img>
+
 			<div className="input-form">
 				<input
 					placeholder="Name"

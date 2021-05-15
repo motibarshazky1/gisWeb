@@ -59,6 +59,12 @@ const SiteRate = () => {
 			<div className="title">
 				<label>Photo Library</label>
 			</div>
+			<img
+				src="https://cdn4.iconfinder.com/data/icons/ios7-essence/23/device_camera_capture_photo__-512.png"
+				className="img"
+				alt=""
+			></img>
+
 			<div className="photos">
 				{array.map((photo, i) => (
 					<div key={i} className="photo-wrapper">

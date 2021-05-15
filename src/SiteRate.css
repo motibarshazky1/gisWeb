@@ -8,11 +8,13 @@
 	align-self: center;
 	flex-direction: column;
 	margin-bottom: 100px;
+	font-family: 'Gayathri', sans-serif;
 }
 .title {
 	font-size: 36px;
 	color: white;
 	margin-top: 40px;
+	font-family: 'Gayathri', sans-serif;
 }
 .input-form {
 	display: flex;
@@ -20,7 +22,6 @@
 	width: 100%;
 	justify-content: center;
 	align-items: center;
-	margin-top: 30px;
 	margin-bottom: 50px;
 }
 
@@ -30,9 +31,11 @@
 	margin-top: 30px;
 	border: none;
 	outline: none;
+	font-family: 'Gayathri', sans-serif;
 }
 .comment {
 	height: 150px;
+	font-family: 'Gayathri', sans-serif;
 }
 .buttons {
 	width: 40%;
@@ -49,4 +52,5 @@
 	width: 100%;
 	margin: 5px;
 	margin-top: 15px;
+	font-family: 'Gayathri', sans-serif;
 }
