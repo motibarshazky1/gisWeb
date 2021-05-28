@@ -1,6 +1,6 @@
 .photo-library {
 	display: flex;
-	margin-top: 100px;
+	margin-top: 160px;
 	background: linear-gradient(rgb(50, 248, 83), rgb(232, 235, 229));
 	width: 50%;
 	justify-content: center;

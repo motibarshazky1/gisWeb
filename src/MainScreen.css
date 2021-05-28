@@ -1,6 +1,6 @@
 .main-screen {
 	display: flex;
-	margin-top: 30px;
+	margin-top: 140px;
 	background: linear-gradient(rgb(0, 250, 237), rgb(69, 117, 223));
 	width: 50%;
 	justify-content: center;
