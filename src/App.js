@@ -1,9 +1,9 @@
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 
-import MainScreen from './MainScreen';
-import PhotoLibrary from './PhotoLibrary';
-import SiteRate from './SiteRate';
+import MainScreen from './Screens/MainScreen/MainScreen';
+import PhotoLibrary from './Screens/PhotoLibrary/PhotoLibrary';
+import SiteRate from './Screens/SiteRate/SiteRate';
 const App = () => {
 	return (
 		<div className="App">
